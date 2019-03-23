@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
+<div id="box1">
 
-<h1>Crystal Click Game!</h1>
+<h1 class="text-center">Crystal Click Game!</h1>
 
-<p>Click each crystal to get points! Be careful which ones you click though...if your score goes over the target score, you lose! Good Luck!</p>
+<p class="text-center">Click each crystal to get points! Be careful which ones you click though...if your score goes over the target score, you lose! Good Luck!</p>
 
-<p id="result"></p>
+<p class="text-center"id="result"></p>
+</div>
 
 <div class="crystals"></div>
-
-<p>Wins: <div id="wins"></div></p>
-<p>Losses: <div id="losses"></div></p>
-<p>Total Score: <div id="scoreTotal"></div></p>
-    <script src="assets/javascript/game.js"></script>
+<br>
+<div id="box2">
+<div class="text-center" id="wins">Wins: 0</div>
+<div class="text-center" id="losses">Losses: 0</div>
+<div class="text-center" id="score">Score: 0</div>
+</div>
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>

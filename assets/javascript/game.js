@@ -60,21 +60,21 @@ $(document).on("click",".crystal", function() {
 
     previous += num;
 
-    $("#scoreTotal").html(previous);
+    $("#score").html("Score: " + previous);
 
     if (previous > random_result) {
         alert("You Lost!");
         loss++
-        $("#losses").html(loss);
-        $("#scoreTotal").html("0");
+        $("#losses").html("Losses: " + loss);
+        $("#score").html("Score: 0");
         $(".crystals").empty();
         resetGame();
 
     } else if (previous === random_result) {
         alert("You win!");
         win++
-        $("#wins").html(win)
-        $("#scoreTotal").html("0");
+        $("#wins").html("Wins: " + win)
+        $("#score").html("Score: 0");
         $(".crystals").empty();
         resetGame();
     };

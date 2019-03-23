@@ -5,18 +5,35 @@
 }
 
 .crystal {
-    border: 1px solid green;
+    border: 1px solid black;
     height: 200px;
     width: 200px;
 }
 
 body {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: radial-gradient(lightblue, violet);
+    background-image: radial-gradient(rgb(126,157,151), rgb(48, 33, 61));
+    color: rgb(6, 65, 21);
 
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 65px;
+}
+
+#box1 {
+    border: 1px solid black;
+    margin: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(114, 92, 145), rgb(126, 157, 151))
+}
+
+#box2 {
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(126, 157, 151), rgb(114, 92, 145))
 }
