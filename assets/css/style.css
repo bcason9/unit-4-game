@@ -12,8 +12,8 @@
 
 body {
     text-align: center;
-    background-image: radial-gradient(rgb(126,157,151), rgb(48, 33, 61));
-    color: rgb(6, 65, 21);
+    background-image: radial-gradient(rgb(169, 209, 201), rgb(48, 33, 61));
+    color: black;
 
 }
 
@@ -26,7 +26,7 @@ h1 {
     margin: 30px;
     margin-top: 0px;
     padding: 20px;
-    background-image: linear-gradient(rgb(114, 92, 145), rgb(126, 157, 151))
+    background-image: linear-gradient(rgb(91, 30, 175), rgb(126, 157, 151))
 }
 
 #box2 {
@@ -35,5 +35,5 @@ h1 {
     margin-right: 300px;
     margin-bottom: 100px;
     padding: 20px;
-    background-image: linear-gradient(rgb(126, 157, 151), rgb(114, 92, 145))
+    background-image: linear-gradient(rgb(126, 157, 151), rgb(91, 30, 175))
 }
