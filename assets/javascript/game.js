@@ -22,7 +22,7 @@ var resetGame = function() {
 
     previous = 0
     random_result = Math.floor(Math.random() * 90) + 30;
-    $("#result").html("Random Result: " + random_result);
+    $("#result").html("Random Number: " + random_result);
 
     
 }
@@ -30,14 +30,12 @@ var resetGame = function() {
 var startGame = function() {
 
     random_result = Math.floor(Math.random() * 90) + 30;
-    $("#result").html("Random Result: " + random_result);
+    $("#result").html("Random Number: " + random_result);
 
     for(var i=0; i < 4; i++) {
 
         randomNum = Math.floor(Math.random() * 11) + 1;
-        //console.log(randomNum);
-    
-    
+        
         crystal = $("<div>")
             crystal.attr({
                 "class": "crystal",

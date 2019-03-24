@@ -5,9 +5,10 @@
 }
 
 .crystal {
-    border: 1px solid black;
+    border: 1px solid green;
     height: 200px;
     width: 200px;
+    background-image: url("../images/crystalpic3.jpg")
 }
 
 body {
@@ -19,18 +20,25 @@ body {
 
 h1 {
     font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#result {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #box1 {
-    border: 1px solid black;
-    margin: 30px;
+    border: 1px solid green;
+    margin: 50px;
     margin-top: 0px;
+    margin-bottom: 20px;
     padding: 20px;
     background-image: linear-gradient(rgb(91, 30, 175), rgb(126, 157, 151))
 }
 
 #box2 {
-    border: 1px solid black;
+    border: 1px solid green;
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 100px;
